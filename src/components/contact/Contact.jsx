@@ -92,7 +92,6 @@ export default function Contact() {
             <button type="submit" className="btn btn-custom ">
               Submit
             </button>
-            {message && <span>Thanks, I will reply ASAP :D!</span>}
           </form>
         </div>
       </div>
