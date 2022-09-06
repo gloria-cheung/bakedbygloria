@@ -2,6 +2,7 @@ import "./App.scss";
 import Nav from "./components/nav/Nav";
 import Banner from "./components/banner/Banner";
 import Article from "./components/article/Article";
+import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Nav />
         <Banner />
         <Article />
+        <About />
         <Contact />
         <div id="footer"></div>
       </div>
