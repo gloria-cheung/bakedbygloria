@@ -2,7 +2,7 @@ import "./About.scss";
 
 export default function About() {
   return (
-    <div className="container">
+    <div className="container" id="about">
       <div className="row">
         <div className="col">
           <img src="gloria.jpg" alt="owner" />
