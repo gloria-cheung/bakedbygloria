@@ -2,64 +2,46 @@ import "./Nav.scss";
 
 export default function Nav() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-custom">
+    <nav class="navbar navbar-expand-lg navbar border-bottom">
       <a class="navbar-brand" href="#">
-        BakedByGloria
+        <img src="bakedbygloria.png" alt="logo" className="w-75" />
       </a>
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">
-              Home
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              About
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Pricing
-            </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Cakes
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">
-                Two Tier
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div className="w-100 d-flex justify-content-around">
+          <ul class="navbar-nav">
+            <li class="nav-item p-4">
+              <a class="nav-link" href="#">
+                CAKES
               </a>
-              <a class="dropdown-item" href="#">
-                Themed
+            </li>
+            <li class="nav-item p-4">
+              <a class="nav-link" href="#">
+                PRICING
               </a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Contact
-            </a>
-          </li>
-        </ul>
+            </li>
+            <li class="nav-item p-4">
+              <a class="nav-link" href="#">
+                CONTACT US
+              </a>
+            </li>
+            <li class="nav-item p-4">
+              <a class="nav-link" href="#">
+                ABOUT
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   );
