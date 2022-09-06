@@ -29,10 +29,10 @@ export default function Contact() {
   };
 
   return (
-    <div className="container m-5">
+    <div className="container m-5" id="contact">
       <div className="row">
         <div className="col d-flex justify-content-center align-items-center">
-          <h3 className="display-4">Need a Price Quote?</h3>
+          <h2>Need a Price Quote?</h2>
         </div>
         <div className="col text-center">
           <form ref={form} onSubmit={sendEmail}>
