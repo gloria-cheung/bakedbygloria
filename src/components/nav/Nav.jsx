@@ -2,7 +2,7 @@ import "./Nav.scss";
 
 export default function Nav() {
   return (
-    <nav class="navbar navbar-expand-lg navbar border-bottom">
+    <nav class="navbar navbar-expand-lg navbar border-bottom sticky-top nav-bg">
       <a class="navbar-brand" href="#">
         <img src="bakedbygloria.png" alt="logo" className="w-75" />
       </a>
@@ -31,12 +31,12 @@ export default function Nav() {
               </a>
             </li>
             <li class="nav-item p-4">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#contact">
                 CONTACT US
               </a>
             </li>
             <li class="nav-item p-4">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#about">
                 ABOUT
               </a>
             </li>
