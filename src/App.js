@@ -1,10 +1,19 @@
 import "./App.scss";
 import Nav from "./components/nav/Nav";
+import Banner from "./components/banner/Banner";
+import Article from "./components/article/Article";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <div className="justify-content-md-center">
+        <Nav />
+        <Banner />
+        <Article />
+        <Contact />
+        <div id="footer"></div>
+      </div>
     </div>
   );
 }
