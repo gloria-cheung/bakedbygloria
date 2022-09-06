@@ -1,0 +1,13 @@
+@import "../../global.scss";
+
+.container {
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    color: $mainColor;
+  }
+}
