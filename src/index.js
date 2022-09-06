@@ -1,12 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Pricing from "./components/pricing/Pricing";
+import Cakes from "./components/cakes/Cakes";
+import Contact from "./components/contact/Contact";
+import About from "./components/about/About";
+import Nav from "./components/nav/Nav";
+import Footer from "./components/footer/Footer";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/cakes" element={<Cakes />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Footer />
+    </Router>
   </React.StrictMode>
 );
 
