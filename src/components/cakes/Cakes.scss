@@ -1,0 +1,21 @@
+@import "../../global.scss";
+
+.container {
+  .heading {
+    color: $fifthColor;
+    font-weight: 300;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+    &:hover {
+      opacity: 0.5;
+      cursor: pointer;
+      transition: all 0.3s ease-in;
+    }
+  }
+
+}
