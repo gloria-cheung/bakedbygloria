@@ -1,4 +1,3 @@
-import Footer from "../footer/Footer";
 import "./Pricing.scss";
 
 export default function Pricing() {
