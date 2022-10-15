@@ -35,3 +35,9 @@ npm start
 - React-scripts
 - EmailJS
 - Node SASS
+
+## Connect With Me
+
+[Github](https://github.com/gloria-cheung)
+-- [Linkedin](http://www.linkedin.com/in/gloria-cheung) --
+[Portfolio](http://www.gloria-cheung.com)
