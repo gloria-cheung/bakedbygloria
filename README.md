@@ -2,7 +2,7 @@
 
 Baked by Gloria is custom cake website built with Create React App that allows users to browse past cake creations, submit cake inquiries and view pricing lists.
 
-Deployed [here](https://production--schedulerapp-lhl.netlify.app/)
+Deployed [here](https://gloriasplantsandpots.herokuapp.com//)
 
 ## Final Product
 
